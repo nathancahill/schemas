@@ -1,5 +1,5 @@
 {
-  "name": "@zeit/schemas",
+  "name": "zeit-schemas-proxied",
   "version": "2.14.0",
   "description": "All schemas used for validation that are shared between our projects",
   "scripts": {
@@ -7,7 +7,7 @@
     "lint": "zeit-eslint --ext .jsx,.js .",
     "lint-staged": "git diff --diff-filter=ACMRT --cached --name-only '*.js' '*.jsx' | xargs zeit-eslint"
   },
-  "repository": "zeit/schemas",
+  "repository": "nathancahill/schemas",
   "author": "leo",
   "license": "MIT",
   "devDependencies": {
